@@ -1,31 +1,88 @@
 # This is just a sample file. For a fully documented version of this file, see
 # https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
 tools:
-
+######################
+# secondary analysis #
+######################
 # adapter trimming
 - name: 'adapter_removal'
   owner: 'iuc'
-  tool_panel_section_id: 'Fasta Manipulation'
+  tool_panel_section_label: 'Fasta Manipulation'
   revisions:
   - '04d05400d3a6'  # v0
+- name: 'cutadapt'
+  owner: 'lparsons'
+  tool_panel_section_label: 'Fasta Manipulation'
+  revisions:
+  - '135b80fb1ac2'  # v33
 
 # alignment
 - name: 'hisat2'
   owner: 'iuc'
-  tool_panel_section_id: 'Assembly'
+  tool_panel_section_label: 'Aligner'
   revisions:
   - 'f4af63aaf57a'  # v31
+- name: 'rgrnastar'
+  owner: 'iuc'
+  tool_panel_section_label: 'Aligner'
+  revisions:
+  - '980d2a2e1180'  # v22
 
 # samtools
 - name: 'samtools_view'
   owner: 'iuc'
-  tool_panel_section_id: 'SAM'
+  tool_panel_section_label: 'SAMtools'
   revisions:
   - '5826298f6a73'  # v14
+- name: 'samtools_sort'
+  owner: 'devteam'
+  tool_panel_section_label: 'SAMtools'
+  revisions:
+  - '6c2c1836728b'  # v4
 
 # gene counting
 - name: 'htseq_count'
   owner: 'lparsons'
-  tool_panel_section_id: 'Sequence Analysis'
+  tool_panel_section_label: 'Gene Counting'
   revisions:
   - '916cb26bd9d3'  # v28
+- name: 'featurecounts'
+  owner: 'iuc'
+  tool_panel_section_label: 'Gene Counting'
+  revisions:
+  - '38b6d12edc68'  # v29
+
+# qc tools
+- name: 'fastqc'
+  owner: 'devteam'
+  tool_panel_section_label: 'QC Tools'
+  revisions:
+  - '3d0c7bdf12f5'  # v22
+- name: 'fastqc'
+  owner: 'devteam'
+  tool_panel_section_label: 'QC Tools'
+  revisions:
+  - '3d0c7bdf12f5'  # v22
+- name: 'rseqc'
+  owner: 'nileh'
+  tool_panel_section_label: 'QC Tools'
+  revisions:
+  - '5968573462fa'  # v61
+#####################
+# tertiary anaylsis #
+#####################
+- name: 'deseq2'
+  owner: 'iuc'
+  tool_panel_section_label: 'Statistics'
+  revisions:
+  - '8fe98f7094de'  # v30
+- name: 'ggplot2_heatmap2'
+  owner: 'iuc'
+  tool_panel_section_label: 'Visualization'
+  revisions:
+  - '566197475670'  # v6
+- name: 'goseq'
+  owner: 'iuc'
+  tool_panel_section_label: 'Statistics'
+  revisions:
+  - '602de62d995b'  # v11
