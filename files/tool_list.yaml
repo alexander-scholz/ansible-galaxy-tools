@@ -83,6 +83,6 @@ tools:
   - '566197475670'  # v6
 - name: 'goseq'
   owner: 'iuc'
-  tool_panel_section_label: 'QC Tools'
+  tool_panel_section_label: 'Statistics'
   revisions:
   - '602de62d995b'  # v11
