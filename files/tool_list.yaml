@@ -64,7 +64,7 @@ tools:
   revisions:
   - '3d0c7bdf12f5'  # v22
 - name: 'rseqc'
-  owner: 'nileh'
+  owner: 'nilesh'
   tool_panel_section_label: 'QC Tools'
   revisions:
   - '5968573462fa'  # v61
