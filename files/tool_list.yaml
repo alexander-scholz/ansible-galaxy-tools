@@ -14,7 +14,7 @@ tools:
   owner: 'lparsons'
   tool_panel_section_label: 'Fasta Manipulation'
   revisions:
-  - '135b80fb1ac2'  # v33
+  - '8c0175e03cee'  # v34
 
 # alignment
 - name: 'hisat2'
@@ -26,7 +26,12 @@ tools:
   owner: 'iuc'
   tool_panel_section_label: 'Aligner'
   revisions:
-  - '980d2a2e1180'  # v22
+  - '3ea5a2a63fa2'  # v26
+- name: 'ncbi_blast_plus'
+  owner: 'devteam'
+  tool_panel_section_label: 'Aligner'
+  revisions:
+  - '0e3cf9594bb7'  # v31
 
 # samtools
 - name: 'samtools_view'
@@ -50,19 +55,19 @@ tools:
   owner: 'iuc'
   tool_panel_section_label: 'Gene Counting'
   revisions:
-  - '38b6d12edc68'  # v29
+  - '6f66ae7c5f7a'  # v31
 
 # qc tools
 - name: 'fastqc'
   owner: 'devteam'
   tool_panel_section_label: 'QC Tools'
   revisions:
-  - '3d0c7bdf12f5'  # v22
+  - '5ec9f6bceaee'  # v23
 - name: 'rseqc'
   owner: 'nilesh'
   tool_panel_section_label: 'QC Tools'
   revisions:
-  - '5968573462fa'  # v61
+  - '473382134e56'  # v62
 #####################
 # tertiary anaylsis #
 #####################
@@ -75,7 +80,7 @@ tools:
   owner: 'iuc'
   tool_panel_section_label: 'Visualization'
   revisions:
-  - '566197475670'  # v6
+  - '53460afd5115'  # v7
 - name: 'goseq'
   owner: 'iuc'
   tool_panel_section_label: 'Statistics'
