@@ -63,13 +63,8 @@ tools:
   tool_panel_section_label: 'QC Tools'
   revisions:
   - '5ec9f6bceaee'  # v23
-- name: 'fastqc'
-  owner: 'devteam'
-  tool_panel_section_label: 'QC Tools'
-  revisions:
-  - '3d0c7bdf12f5'  # v22
 - name: 'rseqc'
-  owner: 'nileh'
+  owner: 'nilesh'
   tool_panel_section_label: 'QC Tools'
   revisions:
   - '473382134e56'  # v62
